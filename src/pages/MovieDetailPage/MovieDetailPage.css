@@ -1,0 +1,67 @@
+#detailPage{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.detail{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.relate{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+.relate h1{
+    background: linear-gradient(to right, #01b4e4 0%, #90cea1 100%); 
+    background-clip: text;
+    color: transparent;
+}
+.poster {
+    position: relative;
+    width: auto;
+    height: 565px;
+}
+.poster img{
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+.movieDetail{
+    position: relative;;
+    height: 100%;
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    overflow: auto;
+    padding: 10px;
+}
+.movieDetail strong{
+    text-decoration: underline;
+    background: linear-gradient(135deg, rgba(253,29,29,1) 0%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
+@media only screen and (min-width: 700px) {
+    .detail{
+        flex-direction: row;
+        height: 565px;
+    }
+    .movieDetail{
+        font-size: 1.5rem;
+        width: auto;
+        row-gap: 6px;
+        padding: 5px 20px 5px 35px;
+    }
+}

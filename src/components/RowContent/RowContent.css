@@ -1,0 +1,41 @@
+.container{
+    position: relative;
+    height: 420px;
+    width: 100%;
+}
+.RowContent{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.container button{
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.3;
+    color: gray;
+}
+.container button:hover{
+    opacity: 0.6;
+    scale: 1.2;
+    transition: 0.3s ease-in;
+}
+.scrollRight{
+    top: 180px;
+    right: -20px;
+}
+.scrollLeft{
+    top: 180px;
+    left: -20px;
+}

@@ -1,0 +1,24 @@
+#result{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.pageNav{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #01b4e4;
+}
+.pageNav p {
+    margin: 0px 5px;
+}
+.pageNav button{
+    background-color: transparent;
+    border: none;
+    margin: 0px 5px;
+    color: #01b4e4;
+    cursor: pointer;
+}
