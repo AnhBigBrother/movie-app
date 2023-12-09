@@ -41,9 +41,9 @@ function App() {
         <SearchBar />
         <div id='bodyPage'>
           <Routes>
-            <Route path='/' element={<HomePage />}></Route>
-            <Route path='/result' element={<ResultPage />}></Route>
-            <Route path='/detail' element={<MovieDetailPage />}></Route>
+            <Route path='/movie-app/' element={<HomePage />}></Route>
+            <Route path='/movie-app/result' element={<ResultPage />}></Route>
+            <Route path='/movie-app/detail' element={<MovieDetailPage />}></Route>
           </Routes>
         </div>
       </BrowserRouter>

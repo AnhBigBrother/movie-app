@@ -7,7 +7,7 @@ const Tag = ( {data} ) => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const handleClickTag = () => {
-        navigate('/detail');
+        navigate('/movie-app/detail');
         dispatch(updateDetail(data));
     }
     return(

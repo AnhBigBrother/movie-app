@@ -18,7 +18,7 @@ const HomePage = () => {
         else if (e === 'popular'){dispatch(updateResult({...popular, title: 'Popular'}));}
         else if (e === 'topRated'){dispatch(updateResult({...topRated, title: 'Top rated'}));}
         else{dispatch(updateResult({...upComming, title: 'Up coming'}));}
-        navigate('/result');
+        navigate('/movie-app/result');
     }
 
     return (

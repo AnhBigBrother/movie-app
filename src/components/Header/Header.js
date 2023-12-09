@@ -17,12 +17,12 @@ const Header = () => {
             .catch(err => console.error(err));
         setNavPlaceholder(navInput);
         setNavInput('');
-        navigate('/result');
+        navigate('/movie-app/result');
     }
     return (
         <header>
             <nav>
-                <button onClick={() => navigate('/')}><h2>Home</h2></button>
+                <button onClick={() => navigate('/movie-app/')}><h2>Home</h2></button>
                 <div id='navSearch'>
                     <input placeholder={navPlaceholder} 
                     onKeyDown={(e) => e.key === 'Enter' && handleClickNavSearch()}
