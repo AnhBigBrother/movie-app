@@ -18,7 +18,7 @@ const SearchBar = () => {
             .catch(err => console.error(err));
         setPlaceholder(input);
         setInput('');
-        navigate('/result');
+        navigate('/movie-app/result');
     }
     return (
         <div id='head'>
